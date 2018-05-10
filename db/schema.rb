@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.integer "size"
   end
 
-  create_table "create_haunted_houses", force: :cascade do |t|
+  create_table "haunted_houses", force: :cascade do |t|
     t.string "name"
     t.string "location"
     t.string "theme"
